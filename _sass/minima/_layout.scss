@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  border-top: 5px solid $crimson-color;
+  border-bottom: 1px solid $crimson-color-very-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -12,7 +12,8 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
+  font-weight: 600;
+  color: $crimson-color;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -20,13 +21,21 @@
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: $crimson-color-dark;
+  }
+
+  &:hover {
+    color: $crimson-color-light;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 
 .site-nav {
   float: right;
+  text-align: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  padding-right: 10px;
 
   .nav-trigger {
       display: none;
@@ -43,6 +52,12 @@
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
       margin-right: 20px;
+    }
+
+    &:hover {
+      color: $crimson-color;
+      text-decoration: none;
+      cursor: pointer;
     }
   }
 
@@ -106,70 +121,31 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
-}
-
-.footer-heading {
-  @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-  list-style: none;
-  margin-left: 0;
-}
-
-.footer-col-wrapper {
-  @include relative-font-size(0.9375);
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+  font-size: $small-font-size;
   color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
-}
+  clear: both;
+  margin-bottom: 30px;
 
-.footer-col {
-  float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+  a {
+    color: $grey-color;
   }
-
-  .footer-col-3 {
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+  p {
+    margin: 5px auto;
+    width: 160px;
+  }
+  img {
+    width: 26px;
+    height: 26px;
+    margin: 0 4px;
+    display: block;
+    float: left;
   }
 }
-
-@include media-query($on-palm) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
-  }
-}
-
 
 
 /**
@@ -180,11 +156,7 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
-}
-
-.post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.25);
 }
 
 .post-list {
@@ -199,11 +171,30 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
+
+  a.post-tag {
+    border-radius: 20px;
+    border: 1px solid $grey-color;
+    color: $grey-color;
+    padding: 1px 5px;
+    margin-left: 5px;
+    &:hover {
+      border: 1px solid $brand-color;
+      text-decoration: none;
+      color: $brand-color;
+    }
+  }
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+
+  &:hover {
+    color: $crimson-color-light;
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 
@@ -216,39 +207,62 @@
 }
 
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2.2);
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.2;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(2.2);
   }
+
+  font-weight: $base-font-weight * 1.5;
+  width: $content-width * 0.85;
+  max-width: 100%;
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
 
   h2 {
-    @include relative-font-size(2);
+    @include relative-font-size(1.7);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
+
+    font-weight: $base-font-weight * 1.5;
+    margin-top: $spacing-unit * 1.55;
   }
 
   h3 {
-    @include relative-font-size(1.625);
+    @include relative-font-size(1.3);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
     }
+    font-weight: $base-font-weight * 1.35;
+    margin-top: $spacing-unit * 1.1;
   }
 
   h4 {
-    @include relative-font-size(1.25);
+    @include relative-font-size(1.15);
 
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }
+    font-weight: $base-font-weight * 2.0;
   }
+
+  a {
+    border-bottom: 1px dotted #bbb;
+    padding-bottom: 1px;
+
+    &:hover {
+      color: $crimson-color-light;
+      border-bottom: 1px solid $crimson-color-light;
+      padding-bottom: 1px;
+      text-decoration: none;
+    }
+  }
+
 }
