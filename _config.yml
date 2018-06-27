@@ -23,26 +23,26 @@ twitter_username: LIUZhuang2
 github_username: septimo7
 
 # Build settings
-markdown: kramdown
-mathjax: true
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Build settings
 # markdown: kramdown
 # mathjax: true
-# highlighter: rouge
-# excerpt_separator: <!--more-->
-# gems:
+# theme: minima
+# plugins:
 #   - jekyll-feed
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-# kramdown:
-#   input: GFM
-#   auto_ids: true
-#   syntax_highlighter: rouge
+
+# Build settings
+markdown: kramdown
+mathjax: true
+highlighter: rouge
+excerpt_separator: <!--more-->
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
