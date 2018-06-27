@@ -3,6 +3,10 @@
   {% include mathjax.html %}
 {% endif %}
 
+{% if site.tags != "" %}
+  {% include collecttags.html %}
+{% endif %}
+
 <header class="site-header" role="banner">
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
