@@ -1,10 +1,21 @@
 ---
 layout: post
+comment: falseS
 title:  "Reinforcement Learning in Trading"
 date:   2018-06-20 22:12:41 +0800
 categories: jekyll update
 math: true
+tags: reinforcement-learning
 ---
+
+> This post explains the application of reinforcement learning in trading.
+
+<!--more-->
+
+{: class="table-of-content"}
+* TOC
+{:toc}
+
 Different from `predicting forward price by Deep Learning`, RL enable a trader with the new eyesight. I shall start from the basic building blocks.
 
 ## Target
@@ -37,6 +48,22 @@ We work through each layer of our network calculating the outputs for each neuro
 The weights act as bridges. We use the weights to propagate signals forward from the input to the output layers in a neural network. We use the weights to also propagate error backwards from the output back into the network to update our weights. This is called *back propagation*.
 
 > **Hint:** You'll need the derivative of the output activation function ($f(x) = x$) for the backpropagation implementation.
+
+> **Other Variations of GAN**: There are many variations of GANs in different contexts or designed for different tasks. For example, for semi-supervised learning, one idea is to update the discriminator to output real class labels, $$1, \dots, K-1$$, as well as one fake class label $$K$$. The generator model aims to trick the discriminator to output a classification label smaller than $$K$$.
+
+
+**Tensorfor Implementation**: [carpedm20/DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow)
+
+{: class="info"}
+| Symbol        | Meaning           | Notes  |
+| ------------- | ------------- | ------------- |
+| $$p_{z}$$ | Data distribution over noise input $$z$$ | Usually, just uniform. |
+| $$p_{g}$$ | The generator's distribution over data $$x$$ | |
+| $$p_{r}$$| Data distribution over real sample $$x$$ | |
+
+![KL and JS divergence]({{ '/assets/images/favicon.ico' | relative_url }})
+{: style="width: 640px;" class="center"}
+*Fig. 1. Tony-Ironman.*
 
 Jekyll also offers powerful support for code snippets:
 
