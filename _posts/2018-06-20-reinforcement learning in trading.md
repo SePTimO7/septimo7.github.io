@@ -1,6 +1,6 @@
 ---
 layout: post
-comment: falseS
+comment: false
 title:  "Reinforcement Learning in Trading"
 date:   2018-06-20 22:12:41 +0800
 categories: jekyll update
