@@ -1,0 +1,36 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd": "jekyll build -t",
+			"encoding": "UTF-8",
+			"name": "Jekyll",
+			"shell": true,
+			"working_dir": "/Users/zhuang/Dropbox/Zhuang/jekyll-website/"
+		},
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		}
+	],
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/zhuang/Dropbox/Zhuang/jekyll-website/"
+		}
+	],
+	"settings":
+	{
+		"Jekyll":
+		{
+			"jekyll_drafts_path": "/Users/zhuang/Dropbox/Zhuang/jekyll-website/_drafts/",
+			"jekyll_templates_path": "/Users/zhuang/Dropbox/Zhuang/jekyll-website/_templates/",
+			"jekyll_uploads_path": "/Users/zhuang/Dropbox/Zhuang/jekyll-website/assets/",
+			"jelkyll_posts_path": "/Users/zhuang/Dropbox/Zhuang/jekyll-website/_posts/"
+		}
+	}
+}

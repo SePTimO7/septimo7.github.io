@@ -1,0 +1,1641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inpu",
+				"inputs\tparam"
+			],
+			[
+				"str",
+				"strides\tparam"
+			],
+			[
+				"ker",
+				"kernel_size\tparam"
+			],
+			[
+				"con",
+				"conv2d\tfunction"
+			],
+			[
+				"G",
+				"GraphKeys\tclass"
+			],
+			[
+				"tf",
+				"tensorflow"
+			],
+			[
+				"DS",
+				"DSQNParams\tclass"
+			],
+			[
+				"pr",
+				"property\tclass"
+			],
+			[
+				"c",
+				"conv_keep_prob"
+			],
+			[
+				"log",
+				"logging\tmodule"
+			],
+			[
+				"set",
+				"setLevel\tfunction"
+			],
+			[
+				"for",
+				"formatter\tstatement"
+			],
+			[
+				"formatter",
+				"Formatter\tclass"
+			],
+			[
+				"Mac",
+				"MacVim"
+			],
+			[
+				"fac",
+				"factor_data\tparam"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"Tu",
+				"True\tinstance"
+			],
+			[
+				"roll",
+				"rolling_mean"
+			],
+			[
+				"w",
+				"write\tfunction"
+			],
+			[
+				"arg",
+				"args\tstatement"
+			],
+			[
+				"q",
+				"quiet"
+			],
+			[
+				"ar",
+				"args\tstatement"
+			],
+			[
+				"i",
+				"integer"
+			],
+			[
+				"p",
+				"parse_args\tfunction"
+			],
+			[
+				"add",
+				"add_argument\tfunction"
+			],
+			[
+				"a",
+				"add_argument\tfunction"
+			],
+			[
+				"BOOST_A",
+				"BOOST_AUTO_TEST_CASE"
+			],
+			[
+				"sqrt",
+				"sqrt{arg}\tlatex-document"
+			],
+			[
+				"pro",
+				"prod\tlatex-mathsymbols"
+			],
+			[
+				"end",
+				"end{frame}\tQ_var_swap_models.tex"
+			],
+			[
+				"cite",
+				"\\cite{keylist}                                    \tlatex-document"
+			],
+			[
+				"m",
+				"ma_appendix"
+			],
+			[
+				"input",
+				"input{file}\tlatex-document"
+			],
+			[
+				"Black",
+				"BlackVolTermStructure"
+			],
+			[
+				"BOOST_TS",
+				"BOOST_TEST_MESSAGE"
+			],
+			[
+				"BOOST",
+				"BOOST_TEST_CASE"
+			],
+			[
+				"Path",
+				"PathGeneratorTest"
+			],
+			[
+				"t",
+				"tp\ttemplate <typename ${1:_InputIter}>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_posts/2018-10-02-convolution-neural-network-training-notes.markdown",
+			"settings":
+			{
+				"buffer_size": 5567,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog.sublime-project",
+			"settings":
+			{
+				"buffer_size": 749,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2018-06-20-reinforcement learning in trading.md",
+			"settings":
+			{
+				"buffer_size": 8931,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					""
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/QLBoostTest_libstdc++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QLBoostTest_libstdc++.sublime-build",
+					"display log info"
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					"display log info"
+				]
+			],
+			[
+				"Packages/User/QuantLibBoostTest.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					""
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					"display log info"
+				]
+			],
+			[
+				"Packages/User/QuantLibBoostTest.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					""
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					"with boost lib"
+				]
+			],
+			[
+				"Packages/User/QuantLibBoostTest.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					""
+				],
+				[
+					"Packages/C++ Starting Kit/C++ - Starting Kit.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					""
+				],
+				[
+					"Packages/User/c++14.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				"Clean up Files"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"XeLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					""
+				],
+				[
+					"Packages/User/BoostTestStatic.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/BoostTestStatic.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/QuantLib.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLib.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/QuantLib.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/QuantLibBoostTest.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					""
+				],
+				[
+					"Packages/User/QuantLibBoostTest.sublime-build",
+					"with boost lib"
+				]
+			],
+			[
+				"Packages/User/QuantLibBoostTest.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"jekyll",
+				"Jekyll: New post"
+			],
+			[
+				"dat",
+				"Jekyll: Insert current datetime"
+			],
+			[
+				"jek",
+				"Jekyll: New post"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jel",
+				"Jekyll: New post"
+			],
+			[
+				"jekuti",
+				"Jekyll Utility: Migrate project settings"
+			],
+			[
+				"JEK",
+				"Jekyll: New post"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: New Report"
+			],
+			[
+				"neo",
+				"NeoVintageous: Open My .vintageousrc File"
+			],
+			[
+				"actu",
+				"ActualVim: Enable (Global)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"clea",
+				"LaTeXing: Clean Temporary Output Dictionary"
+			],
+			[
+				"previe",
+				"Preferences: MarkdownLivePreview Settings"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"virtual",
+				"Virtualenv: New (venv)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"build",
+				"Build With: LaTeX - Traditional"
+			],
+			[
+				"pyth",
+				"Build With: Python"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"xe",
+				"Build With: LaTeX - Basic Builder - XeLaTeX"
+			],
+			[
+				"",
+				"Build With: LaTeX - Basic Builder - XeLaTeX"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"xela",
+				"Build With: LaTeX - Basic Builder - XeLaTeX"
+			],
+			[
+				"clean",
+				"LaTeXing: Clean Temporary Output Dictionary"
+			],
+			[
+				"tex",
+				"LaTeXTools: Check system"
+			],
+			[
+				"bu",
+				"Build With: BoostTestStatic - Run"
+			],
+			[
+				"bui",
+				"Build With: QuantLibBoostTest - Run"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"lic",
+				"LaTeXing: Install License"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"python",
+			"which python",
+			"g++ -std=c++14 \"/Users/zhuang/Desktop/CRTP_1.c\" -o \"/Users/zhuang/Desktop/CRTP_1\" && \"/Users/zhuang/Desktop/CRTP_1\"",
+			"cd Deskop/",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website"
+	],
+	"file_history":
+	[
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/Gemfile",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_includes/head.html",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_posts/2018-06-20-reinforcement learning in trading.md",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/blog.sublime-project",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_drafts/2018-10-02-convolution-neural-network-training-notes.markdown",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/sublime-jekyll/Jekyll.sublime-completions",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/sublime-jekyll/Jekyll.sublime-settings",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_drafts/2018-10-02-ds.markdown",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_config.yml",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/script-python.sublime-snippet",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/close_tabs.py",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/copy_path_to_clipboard.py",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/pdb.sublime-snippet",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/unittest.sublime-snippet",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/if-pyhton.sublime-snippet",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/container-python.sublime-snippet",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/add_date.py",
+		"/Users/zhuang/Library/Application",
+		"/Users/zhuang/Support/Sublime",
+		"/Users/zhuang/Text",
+		"/Users/zhuang/3/Packages",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/.vintageousrc",
+		"/Users/zhuang/Desktop/call.py",
+		"/Users/zhuang/Desktop/app.py",
+		"/Users/zhuang/Dropbox/Zhuang/OpTB/model/pricer.py",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/ActualVim.sublime-settings",
+		"/Users/zhuang/Dropbox/Zhuang/OpTB/model/validator.py",
+		"/private/etc/hosts",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/Drill/prepare.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/Drill/preprocess.py",
+		"/Users/zhuang/Dropbox/Zhuang/OpTB/model/cubicsplinearbitragefreeivs.py",
+		"/Users/zhuang/.vimrc",
+		"/Users/zhuang/.bash_profile",
+		"/Users/zhuang/work/backtest_from_csv/olmar.py",
+		"/Users/zhuang/OneDrive/myQuantLib/Python_QL/test.py",
+		"/Users/zhuang/OneDrive/myQuantLib/ql_VaR/engineFactory.hpp",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_includes/header.html",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/index.html",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_layouts/default.html",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_layouts/tagpage.html",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_layouts/post.html",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_sass/main.scss",
+		"/Users/zhuang/Dropbox/Zhuang/jekyll-website/_sass/rouge-github.scss",
+		"/Users/zhuang/jekyll-website/_posts/2018-06-19-Amygdala!.md",
+		"/Users/zhuang/jekyll-website/_site/jekyll/update/2018/06/19/Amygdala!.html",
+		"/Users/zhuang/jekyll-website/_site/about/index.html",
+		"/Users/zhuang/jekyll-website/_site/index.html",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/replay_memory.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/model/DSQN.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/model/__init__.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/utils/__init__.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/DeepSenseTrading.sublime-project",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/untitled.sublime-project",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/Virtualenv/README.md",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/reinforcement/DeepSenseTrading/model/BaseAgent.py",
+		"/Users/zhuang/Dropbox/Zhuang/research/ml/Research Diary.tex",
+		"/Users/zhuang/Desktop/allthingsfintech/CMakeLists.txt",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/boats/sde_optimal.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/boats/XGBoat.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/NaiveFixedSpread/list_substract.py",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/DoxyDoc/DoxyDoc.sublime-settings",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/rqalpha/rqalpha/core/strategy_loader.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/Online-Bagging-and-Boosting/onlineBoosting.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/TickTickBacktest/python/exchange.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/TickTickBacktest/python/backtest_machine.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/sabr/sabr.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/boats/obp.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/boats/__init__.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/helper/ol_algo.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/helper/hawkes_em.py",
+		"/Users/zhuang/Dropbox/Zhuang/py/xgb_pred.py",
+		"/Users/zhuang/Desktop/EventDrivenPlatform/Event.h",
+		"/Users/zhuang/Desktop/Factory/Factory/Worker.py",
+		"/Volumes/Viscosity_1.7.6/SN.txt",
+		"/Users/zhuang/.config/nvim/.vimrc",
+		"/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/share/locale/zh_CN/LC_MESSAGES/crossover.mo",
+		"/Users/zhuang/Desktop/deauth.py",
+		"/Users/zhuang/Dropbox/Zhuang/hsbc/contract/script.py",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-commands",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/global_env.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/HayBoat/config.ini",
+		"/Users/zhuang/work/rqalpha/rqalpha/data/data_proxy.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/model/bar.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/model/instrument.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/mod/rqalpha_mod_sys_accounts/position_model/future_position.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/model/snapshot.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/data/base_data_source.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/api/api_base.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/utils/__init__.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/core/strategy_context.py",
+		"/Users/zhuang/work/rqalpha/rqalpha/data/instrument_mixin.py",
+		"/Users/zhuang/work/QuantPDE/QuantPDE/src/Modules/HJBQVI/HJBQVI.hpp",
+		"/Users/zhuang/work/QuantPDE/QuantPDE/src/Core/Map.hpp",
+		"/Users/zhuang/bulkquoteprint.cpp",
+		"/Users/zhuang/mytest/probe.cpp",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/alphalens/alphalens/tears.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/alphalens/alphalens/plotting.py",
+		"/Users/zhuang/Dropbox/Zhuang/pyworkspace/alphalens/alphalens/__init__.py",
+		"/Users/zhuang/.gvimrc",
+		"/Users/zhuang/.vim/bundle/ultisnips/mysnippets/cpp.snippets",
+		"/Users/zhuang/.vim/bundle/ultisnips/mysnippets/py.snippets",
+		"/Users/zhuang/Dropbox/Zhuang/Foo/weibocrawler.py",
+		"/Users/zhuang/Dropbox/Zhuang/Foo/ChineseWordCloud/create_word_cloud.py",
+		"/Users/zhuang/Dropbox/Zhuang/Foo/Alice.txt",
+		"/Users/zhuang/Dropbox/Zhuang/market_making_code/update.py",
+		"/Users/zhuang/Desktop/大小姐～",
+		"/Users/zhuang/Dropbox/Zhuang/market_making_code/entropy.py",
+		"/Users/zhuang/work/optlib/src/optlib.cc",
+		"/Users/zhuang/Desktop/crack.py",
+		"/Users/zhuang/Library/Application Support/Sublime Text 3/Packages/User/QLBoostTest_libstdc++.sublime-build",
+		"/Users/zhuang/work/optlib/inc/optlib.h",
+		"/Users/zhuang/Desktop/jump.h",
+		"/Users/zhuang/ql/QuantLib-1.10/Examples/Replication/Replication.cpp",
+		"/Users/zhuang/Dropbox/Default (OSX).sublime-mousemap",
+		"/Users/zhuang/ql/QuantLib-1.10/Examples/Makefile",
+		"/Users/zhuang/Downloads/d20130403.l",
+		"/Users/zhuang/rqExamples/examples/technical_analysis/golden_cross.py",
+		"/Volumes/xclient.info/SN.txt",
+		"/Users/zhuang/Downloads/CRTP_test1.cpp",
+		"/Users/zhuang/Dropbox/share_Zhuang/Homework/Homework3/hw3_solu/1_3.txt",
+		"/Users/zhuang/Dropbox/share_Zhuang/Homework/Homework2/hw2_solu/q2_4.m",
+		"/Users/zhuang/Dropbox/share_Zhuang/Homework/Homework2/hw2_solu/q2_3.m",
+		"/Users/zhuang/pyAlgoTrade/Optimizing/parallel.py",
+		"/Users/zhuang/pyAlgoTrade/Optimizing/server.py",
+		"/Users/zhuang/pyAlgoTrade/Optimizing/worker.py",
+		"/Users/zhuang/pyAlgoTrade/smaSimple.py",
+		"/Users/zhuang/pyAlgoTrade/start3.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_posts/2018-10-02-convolution-neural-network-training-notes.markdown",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1750,
+								1750
+							]
+						],
+						"settings":
+						{
+							"SL.73.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"markdonw_live_preview_last_run": 1538574097.14,
+							"parser": "gitlab",
+							"syntax": "Packages/LaTeXing/support/LaTeX.tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "blog.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								748,
+								748
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										691,
+										692
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										747,
+										748
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (Sublime).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_posts/2018-06-20-reinforcement learning in trading.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1134,
+								1134
+							]
+						],
+						"settings":
+						{
+							"SL.135.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1138,
+										1139
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/dot.png",
+										"region.yellowish brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1134,
+										1135
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 410.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 152.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "blog.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instr",
+				"model/instrument.py"
+			],
+			[
+				"posi",
+				"mod/rqalpha_mod_sys_accounts/position_model/future_position.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 600.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"_vintageous_reset_during_init": true,
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
