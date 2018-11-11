@@ -32,3 +32,5 @@ tags: options implied-vol
 - MSE of the price differences in currency units
 $$ \min_p \frac{1}{N} \sum_{n=1}^N (C^*_n - C_n^{model}(p))^2
 $$
+
+### No Arbitrage Curve
