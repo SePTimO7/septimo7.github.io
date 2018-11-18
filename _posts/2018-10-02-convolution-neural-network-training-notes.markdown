@@ -380,3 +380,22 @@ lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem i
 ## Prices
 
 In the standard economics paradigm, it is the intersection of supply and demand curved for a particular good. But what is it in the economy that coordinates the desires of demanders and suppliers so that a price emerges and trade occurs?
+
+
+##
+
+Some where between where the raw data is fed and the classification label is output, the model serves as a complex feature extractor.
+
+Feed the data through the network to obtain the outputs of the intermediate layers. Define loss function wrt content and style seperately. The loss is defined as some distance in terms of representations.
+
+Set the input data as trainable variables during the training session, the model with fixed internal nodes and edges will shape the feed data to reduce the loss function.
+
+Consider whether the strategy is entering and exiting passively, by posting bids and offers, or aggressively, by crossing the spread to sell at the bid and buy at the offer. Usually passive entries and exits is used for big volume.
+
+Make a much more conservative assumption that your limit order will only get filled when the market moves through them.
+
+For a futures strategy, crossing the spread to enter or exit a trade more than a handful of times (or missing several limit order entries or exits) will quickly eviscerate the profitability of the system.  A HFT system in equities, by contrast, will typically prove more robust, because of the smaller tick size.
+
+## Win Rate v.s. Risk : Reward rates
+- Pick the market correctly more than half the time (positive win rate);
+- win more than you lose on each trade (positive risk to reward ratio)
