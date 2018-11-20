@@ -1,5 +1,5 @@
 ---
-title: Convolution neural network training notes
+title: Deep Trading Training Notes
 layout: post
 categories: junk
 math: true
@@ -7,6 +7,7 @@ comments: true
 author: Jon Liu
 date: 2018-10-02 23:51:13
 meta: "Springfield"
+tags: deep-learning tensorflow trading
 ---
 
 > This post talks on CNN

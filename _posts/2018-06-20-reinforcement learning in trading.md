@@ -1,9 +1,9 @@
 ---
 layout: post
-comment: false
-title:  "Reinforcement Learning in Trading"
-date:   2018-06-20 22:12:41 +0800
-categories: jekyll update
+comment: true
+title: Reinforcement Learning in Trading
+date: 2018-06-20 22:12:41 +0800
+categories: trading DL
 math: true
 tags: reinforcement-learning
 ---
@@ -35,13 +35,13 @@ The agent has been declaring that this `Env` park is her stage and she can do wi
 
 `tensorflow.static_rnn` gives the graph of unrolled RNN, w.r.t. the time dimension. Tensorboard will show a stacked architecture with `sequence_length` of `rnn_cell`s. Thus during the feed phase, every batch is required to have the same `sequence_length`, a.k.a. `time_steps`.
 
-`tensorflow.dynamic_rnn` does not unroll RNN. It uses `tf.while_loop` and other control flow ops to generate a graph to execute the loop. For the dynamic version, `sequence_length` means loop numbers and batches can have variable `sequence_length`. 
+`tensorflow.dynamic_rnn` does not unroll RNN. It uses `tf.while_loop` and other control flow ops to generate a graph to execute the loop. For the dynamic version, `sequence_length` means loop numbers and batches can have variable `sequence_length`.
 
 #### NN for regression
 
 When applied to regression problem, the NN's output layer has only one node, the output of the node is the same as the input of the node. That is, linear activation function: \\(f(x) = x\\).
 
-A function that takes the input signal and generates an output signal, but takes into account the threshold, is called an *activation function*. 
+A function that takes the input signal and generates an output signal, but takes into account the threshold, is called an *activation function*.
 
 We work through each layer of our network calculating the outputs for each neuron. All of the outputs from one layer become inputs to the neurons on the next layer. This process is called *forward propagation*.
 
@@ -68,8 +68,8 @@ The weights act as bridges. We use the weights to propagate signals forward from
 Jekyll also offers powerful support for code snippets:
 
 ~~~~
-This is a 
-piece of code 
+This is a
+piece of code
 in a block
 ~~~~
 
@@ -145,9 +145,9 @@ $\bigl( \begin{smallmatrix} a & b \\ c & d \end{smallmatrix} \bigr)$
 $$
 \begin{align}
 \sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\
- & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ 
+ & = \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\
  & = \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\
- & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ 
+ & = \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\
  & \approx \frac{73}{12}\left(1 - \frac{1}{2\cdot73^2}\right)
 \end{align}
 $$
@@ -161,7 +161,7 @@ n/2,  & \text{if $n$ is even} \\
 $$
 
 {% raw %}
-$$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
+$$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping!
 {% endraw %}
 
 $$

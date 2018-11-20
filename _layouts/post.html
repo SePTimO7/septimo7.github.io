@@ -13,22 +13,18 @@ layout: default
       </time>
 
       {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"> {{ page.author | escape }} </span></span>
 
-        <a herf="{{ content.absolute_url }}#disqus_thread"> Post a comment</a>
+        • <a herf="{{ post.url | remove_first:'/'}}#disqus_thread"> Post a comment</a>
 
       {% endif %}
 
-    </p>
-
-<!--       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        by <span itemprop="name">{{ site.author }}</span>
-      </span> -->
+      <script id="dsq-count-scr" src="//septimo7-github-io.disqus.com/count.js" async></script>
 
       <span>
         {% for tag in page.tags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a class="post-tag" href="/septimo7.github.io/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+          <a class="post-tag" href="/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
         {% endfor %}
       </span>
       <!--

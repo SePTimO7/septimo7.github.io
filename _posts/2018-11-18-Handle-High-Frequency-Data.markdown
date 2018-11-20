@@ -9,6 +9,8 @@ tags: hft tick-data
 
 > This post states several features of high frequency trading data and shows hosts of methods to play with it.
 
+<!--more-->
+
 HFT data, commonly called tick data, are records of market activity. Two levels of data format complexity is grouped into: Level I data includes the best bid/ask price/size, and last trade price and size, where avaliable. Level II data includes all changes to the order book, including new limit order arrivals and cnacellations at prices away from the market price. etc. [LOBSTER](https://lobsterdata.com/info/DataStructure.php) provides 7 types of events causing an update of the limit order book in the requested price range.
 
 Tick owns multiple meaning in this field. A tick is a measure of the minimum change unit in the price of a security. A tick can also refer to the change in the price of a security from trade to trade: uptick and downtick.

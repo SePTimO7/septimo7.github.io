@@ -5,9 +5,13 @@ title: Implied Volatility
 date: 2018-06-20 22:12:41 +0800
 categories: jekyll update
 math: true
-tags: options implied-vol  arbitrage-free hedging-errors
+comments: true
+author: Jon Liu
+tags: options implied-vol arbitrage-free hedging-errors
 ---
 > A well-known market practice in the options market is to invert option pricing model and using market prices of highly liquid European vanilla calls/puts to get a so called **implied volatility (IV)**: a wrong number that when plugged into the wrong equation gives the right price. This post marks down some reviews.
+
+<!--more-->
 
 > TODO list:
 - [x] @mentions, #refs, [links](#Reference), **formatting**, and <del>tags</del> supported
