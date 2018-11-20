@@ -28,6 +28,8 @@ In order to arrival at the right trading decisions and formulate trading strateg
 
 - Fat tail distribution. Extreme events happened much more often than a normal distribution could state. There is higher probability of big losses or profit in the real world markets.
 
+- Volatility clustering and long memory in absolute values of returns.
+
 ## Parsing cumbersome Level II information
 
 ## Distributions

@@ -25,6 +25,7 @@ github_username: septimo7
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 mathjax: true
 theme: minima
 plugins:
@@ -36,6 +37,12 @@ plugins:
 minima:
   date_format: "%b %-d, %Y"
 
+excerpt_separator: <!--more-->
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # Build settings
 # markdown: kramdown

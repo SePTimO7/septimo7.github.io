@@ -135,7 +135,7 @@
     color: $grey-color;
   }
   p {
-    margin: 160px auto;
+    margin: 5px auto;
     width: 200px;
   }
   img {
@@ -181,7 +181,8 @@
     &:hover {
       border: 1px solid $brand-color;
       text-decoration: none;
-      color: $brand-color;
+      color: #ffffff;
+      background: $brand-color;
     }
   }
 }
