@@ -1,6 +1,7 @@
 @import "fonts";
-@import "rouge-github";
+/*@import "rouge-github";*/
 @charset "utf-8";
+@import "gist";
 
 // Define defaults for each variable.
 $base-font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
@@ -32,13 +33,6 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -49,10 +43,11 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+
 // Import partials.
 @import
   "minima/base",
-  "minima/layout"
+  "minima/layout",
+  "minima/syntax-highlighting"
 ;
 
-@import "gist"

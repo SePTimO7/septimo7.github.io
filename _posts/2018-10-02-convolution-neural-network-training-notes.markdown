@@ -3,6 +3,7 @@ title: Convolution neural network training notes
 layout: post
 categories: junk
 math: true
+comments: true
 author: Jon Liu
 date: 2018-10-02 23:51:13
 meta: "Springfield"
@@ -25,6 +26,7 @@ Convolution is a specialized kind of linear operation.
 $$
 s(t) = \int x(a)w(t-a)da = \sum_{a=-\infty}^{\infty} x(a)w(t-a) = (x*w)(t).
 $$
+
 
 ## Pain of regularization
 
