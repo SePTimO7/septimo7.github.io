@@ -3,6 +3,7 @@ title: Handle High Frequency Data
 layout: post
 math: true
 comments: true
+categories: jonlogger
 author: Jon Liu
 tags: hft tick-data
 ---

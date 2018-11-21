@@ -4,10 +4,10 @@ layout: default
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
 
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
         {{ page.date | date: date_format }}
       </time>
@@ -15,11 +15,13 @@ layout: default
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"> {{ page.author | escape }} </span></span>
 
-        • <a herf="{{ post.url | remove_first:'/'}}#disqus_thread"> Post a comment</a>
+        • <a class="u-url" href="{{ page.url | relative_url }}#disqus_thread"> Post a comment</a>
+
+        <script id="dsq-count-scr" src="//septimo7-github-io.disqus.com/count.js" async></script>
 
       {% endif %}
 
-      <script id="dsq-count-scr" src="//septimo7-github-io.disqus.com/count.js" async></script>
+
 
       <span>
         {% for tag in page.tags %}
@@ -56,5 +58,7 @@ layout: default
   {% if page.comments %}
     {% include disqus.html %}
   {% endif %}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
 </article>

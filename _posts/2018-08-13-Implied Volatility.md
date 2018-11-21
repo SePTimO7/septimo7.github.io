@@ -3,7 +3,7 @@ layout: post
 comment: false
 title: Implied Volatility
 date: 2018-06-20 22:12:41 +0800
-categories: jekyll update
+categories: jonlogger
 math: true
 comments: true
 author: Jon Liu

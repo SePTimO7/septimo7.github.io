@@ -3,7 +3,7 @@ layout: post
 comment: true
 title: Reinforcement Learning in Trading
 date: 2018-06-20 22:12:41 +0800
-categories: trading DL
+categories: jonlogger
 math: true
 tags: reinforcement-learning
 ---

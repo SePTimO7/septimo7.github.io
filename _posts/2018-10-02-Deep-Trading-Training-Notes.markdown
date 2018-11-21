@@ -1,7 +1,7 @@
 ---
 title: Deep Trading Training Notes
 layout: post
-categories: junk
+categories: jonlogger
 math: true
 comments: true
 author: Jon Liu

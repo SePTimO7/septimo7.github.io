@@ -4,6 +4,7 @@ comment: false
 title:  "Normalization Trick on NN"
 date:   2018-06-28 19:50:00 +0800
 math: true
+categories: jonlogger
 tags: batch-normalization recurrent-batch-normalization layer-normalization
 ---
 
