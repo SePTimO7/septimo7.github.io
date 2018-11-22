@@ -15,7 +15,7 @@ layout: default
       {% if page.author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name"> {{ page.author | escape }} </span></span>
 
-        • <a class="u-url" href="{{ page.url | relative_url }}#disqus_thread"> Post a comment</a>
+        • <a class="u-url" href="{{ content.absolute_url }}#disqus_thread"> Post a comment</a>
 
         <script id="dsq-count-scr" src="//septimo7-github-io.disqus.com/count.js" async></script>
 
@@ -62,3 +62,16 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
 </article>
+
+<!-- Replace MathJax syntax with KaTeX -->
+<script type="text/javascript">
+  $("script[type='math/tex']").replaceWith(function() {
+      var tex = $(this).text();
+      return katex.renderToString(tex, {displayMode: false});
+  });
+
+  $("script[type='math/tex; mode=display']").replaceWith(function() {
+      var tex = $(this).html();
+      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+  });
+</script>

@@ -25,8 +25,14 @@ github_username: septimo7
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  math_engine: nil
+
 highlighter: rouge
-mathjax: true
+# mathjax: true
 theme: minima
 plugins:
   - jekyll-feed
@@ -41,10 +47,7 @@ show_excerpts: enabled
 
 excerpt_separator: <!--more-->
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge
+
 
 # Build settings
 # markdown: kramdown
